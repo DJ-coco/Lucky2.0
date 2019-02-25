@@ -1,0 +1,66 @@
+body {
+	font-family: 微软雅黑;
+	width: 1160px;
+	margin: 0 auto;
+	height: auto;
+	background-image: url(../img/index/dog.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.head {
+	width: 1160px;
+	margin: 0 auto;
+	height: 150px;
+}
+
+.logo {
+	height: 150px;
+	width: 150px;
+	float: left;
+	left: 50px;
+	background-image: url(../img/index/logo.png);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	-webkit-animation: 60s spin infinite linear;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.title {
+	height: 80px;
+	width: 450px;
+	float: left;
+	top: 60px;
+	left: 50px;
+	background-image: url(../img/index/LUCKYDOG.png);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.audio{
+	width: 200px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 75px;
+}
+
+.navigation {
+	width: 1160px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+
+

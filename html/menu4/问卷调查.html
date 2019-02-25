@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style>
+			body {
+				overflow: hidden;
+				margin: 0;
+			}
+			.content {
+				width: 1160px;
+				margin: auto;
+				height: 900px;
+				background-color: rgba(255, 250, 250, 0.9);
+				overflow-y: auto;
+			}
+			table{
+				width: 80%;
+				margin: auto;
+			}
+			select{
+				width: 200px;
+				height: 30px;
+			}
+			.in{
+				width: 200px;
+				height: 25px;
+			}
+			button{
+				width: 100px;
+				height: 30px;
+				background-color: pink;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<hr />
+		<div class="content">
+			<h3 align="center">感谢您填写我们的问卷</h3>
+			<table border="9" cellspacing="20" cellpadding="5" bordercolor="pink">
+				<tr>
+					<td>您是否养过狗狗?</td>
+					<td>
+						<select >
+							<option value ="">请选择</option>
+							<option value ="">是，一直养着</option>
+							<option value ="">以前有养过</option>
+							<option value ="">没有养过</option>
+							<option value ="">打算养</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>您个人喜欢狗狗吗？</td>
+					<td>
+						<select>
+							<option value ="">请选择</option>
+							<option value ="">很喜欢</option>
+							<option value ="">有点喜欢</option>
+							<option value ="">不太喜欢</option>
+							<option value ="">一点都不喜欢</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>如果条件允许您会养狗吗？</td>
+					<td>
+						<select>
+							<option value ="">请选择</option>
+							<option value ="">我一定会</option>
+							<option value ="">我会考虑</option>
+							<option value ="">不会，我不喜欢</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>一下哪些因素会影响您养狗的选择？</td>
+					<td>
+						<input type="checkbox" name="" id="" value="" title=""/>经济条件&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>狗狗品种&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>周围狗狗养护中心环境<br />
+						<input type="checkbox" name="" id="" value="" title=""/>个人时间&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>工作原因&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>家庭成员喜好原因&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>其他
+					</td>
+				</tr>
+				<tr>
+					<td>实际生活中，狗狗对您最大的意义是什么？</td>
+					<td>
+						<input type="checkbox" name="" id="" value="" title=""/>增添生活乐趣&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>排解孤单&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>满足个人兴趣和喜好<br />
+						<input type="checkbox" name="" id="" value="" title=""/>减轻生活压力&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>打发时间&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>满足家人需求&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>其他
+					</td>
+				</tr>
+				<tr>
+					<td>您比较关注狗狗哪些方面的信息？</td>
+					<td>
+						<input type="checkbox" name="" id="" value="" title=""/>狗狗食物&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>生理健康&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>外表干净美丽<br />
+						<input type="checkbox" name="" id="" value="" title=""/>是否纯种&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>性格塑造&nbsp;&nbsp;&nbsp;
+						<input type="checkbox" name="" id="" value="" title=""/>其他
+					</td>
+				</tr>
+				<tr>
+					<td>您平时有关注流浪狗吗？</td>
+					<td>
+						<input type="radio" name="dog1" id="" value="" />有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="dog1" id="" value="" />没有
+					</td>
+				</tr><tr>
+					<td>经济条件允许下，您是否愿意领养流浪狗？</td>
+					<td>
+						<input type="radio" name="dog1" id="" value="" />愿意&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="radio" name="dog1" id="" value="" />不愿意
+					</td>
+				</tr>
+				<tr>
+					<td>您的姓名</td>
+					<td>
+						<input type="text" name="" id="" value="" class="in" />
+					</td>
+				</tr>
+				<tr>
+					<td>您的电话</td>
+					<td>
+						<input type="tel" name="" id="" value=""  class="in"/>
+					</td>
+				</tr>
+				<tr>
+					<td>您的邮箱</td>
+					<td>
+						<input type="email" name="" id="" value="" class="in"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="button">提交</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
